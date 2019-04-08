@@ -2,27 +2,10 @@
 
 General-purpose OAuth 2.0 authentication strategy for [Passport](http://passportjs.org/).
 
-This module lets you authenticate using OAuth 2.0 in your Node.js applications.
-By plugging into Passport, OAuth 2.0 authentication can be easily and
-unobtrusively integrated into any application or framework that supports
-[Connect](http://www.senchalabs.org/connect/)-style middleware, including
-[Express](http://expressjs.com/).
-
-Note that this strategy provides generic OAuth 2.0 support.  In many cases, a
-provider-specific strategy can be used instead, which cuts down on unnecessary
-configuration, and accommodates any provider-specific quirks.  See the
-[list](https://github.com/jaredhanson/passport/wiki/Strategies) for supported
-providers.
-
-Developers who need to implement authentication against an OAuth 2.0 provider
-that is not already supported are encouraged to sub-class this strategy.  If you
-choose to open source the new provider-specific strategy, please add it to the
-list so other people can find it.
-
 [![npm](https://img.shields.io/npm/v/passport-oauth2.svg)](https://www.npmjs.com/package/passport-oauth2)
-[![build](https://img.shields.io/travis/jaredhanson/passport-oauth2.svg)](https://travis-ci.org/jaredhanson/passport-oauth2)
-[![coverage](https://img.shields.io/coveralls/jaredhanson/passport-oauth2.svg)](https://coveralls.io/github/jaredhanson/passport-oauth2)
-[...](https://github.com/jaredhanson/passport-oauth2/wiki/Status)
+[![build](https://img.shields.io/travis/YuriKovalchuk/node-passport-oAuth.svg)](https://travis-ci.org/YuriKovalchuk/node-passport-oAuth)
+[![coverage](https://img.shields.io/coveralls/YuriKovalchuk/node-passport-oAuth.svg)](https://coveralls.io/github/YuriKovalchuk/node-passport-oAuth)
+[...](https://github.com/YuriKovalchuk/node-passport-oAuth/wiki/Status)
 
 ## Install
 
@@ -74,52 +57,10 @@ app.get('/auth/example/callback',
   });
 ```
 
-## Related Modules
-
-- [passport-oauth1](https://github.com/jaredhanson/passport-oauth1) — OAuth 1.0 authentication strategy
-- [passport-http-bearer](https://github.com/jaredhanson/passport-http-bearer) — Bearer token authentication strategy for APIs
-- [OAuth2orize](https://github.com/jaredhanson/oauth2orize) — OAuth 2.0 authorization server toolkit
-
-## Contributing
-
-#### Tests
-
-The test suite is located in the `test/` directory.  All new features are
-expected to have corresponding test cases.  Ensure that the complete test suite
-passes by executing:
-
-```bash
-$ make test
-```
-
-#### Coverage
-
-All new feature development is expected to have test coverage.  Patches that
-increse test coverage are happily accepted.  Coverage reports can be viewed by
-executing:
-
-```bash
-$ make test-cov
-$ make view-cov
-```
-
-## Support
-
-#### Funding
-
-This software is provided to you as open source, free of charge.  The time and
-effort to develop and maintain this project is dedicated by [@jaredhanson](https://github.com/jaredhanson).
-If you (or your employer) benefit from this project, please consider a financial
-contribution.  Your contribution helps continue the efforts that produce this
-and other open source software.
-
-Funds are accepted via [PayPal](https://paypal.me/jaredhanson), [Venmo](https://venmo.com/jaredhanson),
-and [other](http://jaredhanson.net/pay) methods.  Any amount is appreciated.
-
 ## License
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2011-2016 Nikolay Kovalchuk <[http://jaredhanson.net/](http://jaredhanson.net/)>
+Copyright (c) 2011-2016 Nikolay Kovalchuk 
 
 

@@ -14,15 +14,14 @@
   ],
   "author": {
     "name": "Nikolay Kovalchuk",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "email": "pucsgroup1@outlook.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-oauth2.git"
+    "url": "git://github.com/YuriKovalchuk/node-passport-oAuth.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-oauth2/issues"
+    "url": "http://github.com/YuriKovalchuk/node-passport-oAuth/issues"
   },
   "license": "MIT",
   "licenses": [
